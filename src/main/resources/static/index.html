@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        body {
+            display: flex;
+            /*gap: 1rem;*/
+            flex-flow: wrap;
+            width: 50vw;
+            margin: auto;
+            height: 100dvh;
+        }
+        body > * {
+            flex: 0 0 20vw;
+            border: 1px solid red;
+            background: rgb(100%, 0%, 0%, 0.3);
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+        p {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div><p>Get your greeting <a href="greeting">here</a></p></div>
+<div><p>Pak die hoi <a href="hoi">here</a></p></div>
+<div><p>Get your personalized greeting <a href="greeting?name=Rinze">here</a></p></div>
+<div><p>Pak je eigen hoi <a href="hoi?name=Rinze">here</a></p></div>
+</body>
+</html>
